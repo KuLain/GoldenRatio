@@ -19,7 +19,7 @@ def draw_golden_spiral(pen: Turtle, base_height: float, n: int) -> None:
     """
     Set up the turtle and draw the golden spiral
     :param pen: Turtle to use
-    :param base_height: Height of the first rectangle
+    :param base_height: Height of the rectangle
     :param n: Number of quarter of circle wanted
     :return: None : Draws the golden spiral
     """
@@ -35,7 +35,7 @@ def draw_quarter_circle_recursive(pen: Turtle, base_height: float, n: int) -> No
     """
     Draw a quarter of the golden spiral
     :param pen: Turtle
-    :param base_height: Height of the first rectangle
+    :param base_height: Height of the rectangle
     :param n: Current iteration
     :return: None: Draw a quarter of the golden spiral
     """
